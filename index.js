@@ -29,6 +29,6 @@ function deleteFromEmployeeByKey(obj, key) {
 }
 
 function destructivelyDeleteFromEmployeeByKey(obj, key) {
-	delete obj[key];
-	return obj
+  delete obj[key];
+  return obj;
 }
